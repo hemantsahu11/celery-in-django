@@ -1,0 +1,7 @@
+for running celery
+
+celery -A core worker -l info -P solo
+
+for celery beat :
+
+celery -A core.celery beat
